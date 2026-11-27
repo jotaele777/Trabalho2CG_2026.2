@@ -25,5 +25,29 @@ Devido às políticas de segurança dos navegadores (CORS), ao carregamento do a
 
 ### Passo a passo
 1. Clone este repositório para a sua máquina:
-   ```bash
+
    git clone [https://github.com/jotaele777/Trabalho2CG_2026.2.git](https://github.com/jotaele777/Trabalho2CG_2026.2.git)
+
+
+
+* Abra a pasta raiz do projeto no VS Code
+
+* Navegue até o arquivo trabalho2/main.html.
+
+* Clique com o botão direito em trabalho2/main.html e selecione "Open with Live Server" (ou clique no botão "Go Live" no canto inferior direito do VS Code).
+
+* O navegador padrão abrirá automaticamente exibindo a cena 3D (ex: http://127.0.0.1:5500/trabalho2/main.html).
+
+* Controles: arraste o mouse para rotacionar a câmera em torno do centro da cena e utilize a roda do mouse (scroll) para controlar o zoom.
+
+📄 Relatório
+Para entender a fundo a modelagem implícita, a estrutura Half-Edge, o modelo de iluminação e visualizar as capturas da aplicação em diferentes ângulos, consulte o relatório completo:
+
+relatorio_final.md
+
+👥 Equipe de Desenvolvimento
+João Lucas Pontes (Estrutura da Cena, Shaders de Phong e Textura): Ficou responsável pela configuração do pipeline em WebGPU, implementação dos shaders WGSL de iluminação de Phong por fragmento com duas luzes pontuais fixas, mapeamento e repetição da textura do chão (Tiles074_1K-JPG_Color.jpg) e integração final dos modelos na cena.
+
+Pedro Henrique Vargas (Modelagem Implícita e Marching Cubes): Desenvolveu a avaliação da superfície implícita da mesa e a implementação do algoritmo Marching Cubes (marching-cubes.js), incluindo a interpolação linear nas arestas, resolução de casos ambíguos, ajuste da resolução da grade (100 × 81 × 100) e cálculo das normais por gradiente numérico.
+
+Pedro do Amaral Rangel (Parser PLY, Half-Edge e Câmera Interativa): Implementou o carregamento do arquivo bun_zipper.ply (load-ply.js), a estrutura Half-Edge com travessia de estrela e tratamento de arestas de bordo para o cálculo das normais por vértice (half-edge.js), além das transformações de posicionamento do Bunny e do controle orbital/zoom da câmera perspectiva (OrbitCamera).
