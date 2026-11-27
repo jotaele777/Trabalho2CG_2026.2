@@ -45,7 +45,8 @@ Para entender a fundo a modelagem implícita, a estrutura Half-Edge, o modelo de
 
 relatorio_final.md
 
-👥 Equipe de Desenvolvimento
+👥 Equipe de Desenvolvimento:
+
 João Lucas Pontes (Estrutura da Cena, Shaders de Phong e Textura): Ficou responsável pela configuração do pipeline em WebGPU, implementação dos shaders WGSL de iluminação de Phong por fragmento com duas luzes pontuais fixas, mapeamento e repetição da textura do chão (Tiles074_1K-JPG_Color.jpg) e integração final dos modelos na cena.
 
 Pedro Henrique Vargas (Modelagem Implícita e Marching Cubes): Desenvolveu a avaliação da superfície implícita da mesa e a implementação do algoritmo Marching Cubes (marching-cubes.js), incluindo a interpolação linear nas arestas, resolução de casos ambíguos, ajuste da resolução da grade (100 × 81 × 100) e cálculo das normais por gradiente numérico.
