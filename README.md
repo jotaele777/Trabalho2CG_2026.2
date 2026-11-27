@@ -2,6 +2,8 @@
 
 Este repositório contém a entrega do **Trabalho 2** da disciplina de **Computação Gráfica (2026.2)**. O projeto consiste em uma cena 3D interativa desenvolvida inteiramente com a API gráfica **WebGPU** e shaders escritos em **WGSL**, combinando modelagem implícita, malhas poligonais com estrutura *Half-Edge*, mapeamento de textura e iluminação de Phong.
 
+O trabalho está todo na pasta trabalho2, a pasta lib é a mesma utilizada de base no primeiro trabalho, com a configuração do webgpu e a pasta bunny é a que contém as imagens do coelhinho.
+
 ## 📌 Sobre o Projeto
 
 O objetivo do trabalho foi construir uma cena 3D completa a partir da base fornecida na disciplina, integrando diferentes técnicas de modelagem geométrica e iluminação por fragmento em tempo real.
