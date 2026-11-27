@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#glcanvas {
+    width: 1024px;
+    height: 768px;
+    display: block;
+    cursor: grab;
+}
+
+#glcanvas:active {
+    cursor: grabbing;
+}
