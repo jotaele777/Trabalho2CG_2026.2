@@ -43,7 +43,7 @@ Devido às políticas de segurança dos navegadores (CORS), ao carregamento do a
 📄 Relatório
 Para entender a fundo a modelagem implícita, a estrutura Half-Edge, o modelo de iluminação e visualizar as capturas da aplicação em diferentes ângulos, consulte o relatório completo:
 
-relatorio_final.md
+Relatorio.md
 
 👥 Equipe de Desenvolvimento:
 
